@@ -1,0 +1,7 @@
+.ws{
+	font-size:10.2rem;
+	position:absolute;
+	top:40%;
+	left:20px;
+	width:fit-content;
+}

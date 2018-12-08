@@ -1,0 +1,29 @@
+
+
+.ws{
+	font-size:10.2rem;
+	position:absolute;
+	top:40%;
+	left:40px;
+	width:fit-content;
+}
+.sub_title{
+	font-size:40%;
+}
+@media only screen and (max-width:700px){
+	.ws{
+		font-size:7.4rem;
+	}
+}
+@media only screen and (max-width:600px){
+	.ws{
+		font-size:6.2rem;
+	}
+}
+body{
+	overflow-x:hidden;
+	padding:0;
+}
+.full_width{
+	width:100vw;
+}

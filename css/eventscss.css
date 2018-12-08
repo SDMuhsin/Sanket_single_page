@@ -1,0 +1,137 @@
+.giant_box{
+	width:100vw;
+	min-height:100vh;
+	display:flex;
+	position:relative;
+}
+#GIANT_TITLE{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	font-size:7vw;
+	font-family:"roboto-bold",sans-serif;
+	
+}
+
+.e1{
+	background-color:#fc4a1a;
+}
+.e2{
+	background-color:#4abdac;
+}
+.e3{
+	background-color:#dfdce3;
+}
+.absolute_title{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	font-size:5vw;
+	font-family:"roboto-bold",sans-serif;
+	transition: .5s linear;
+	opacity:0.9;
+}
+.medium_box{
+
+	background-color:#f7b733;
+	justify-content:center;
+	margin:5%;
+	opacity:0;
+	transition: .5s linear;
+	transform:scale(0.95);
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-start;
+}
+.giant_box:hover > .medium_box{
+	opacity:1;
+	box-shadow: 5px 5px 60px rgba(255,0,0,0.3);
+	transform: scale(1);
+}
+.giant_box:hover > .absolute_title{
+	opacity:0;
+}
+.content_panel{
+}
+.heading{
+	text-align:center;
+	font-family:"roboto-light",san-serif;
+	font-size: 2.5em;
+}
+.content{
+	text-align:center;
+	font-family:"roboto-light",san-serif;
+	font-size: 100%em;
+}
+.img_panel{
+
+	margin-top:0;
+	width:100%;
+	min-width:400px;
+	min-height:50%;
+	max-height:60vh;
+	position:relative;
+}
+
+ul{
+	list-style:none;
+	box-sizing:border-box;
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	position:absolute;
+}
+ul:hover > li{
+	width:10%;
+}
+ul li{
+	position:relative;
+
+	width:20%;
+	height:100%;
+	float:left;
+	box-sizing:border-box;
+	transition:0.7s ease;
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-end;
+	overflow: hidden;
+	background-size:cover;
+	background-position:left;	
+}
+ul li:hover{
+	width:60%;
+
+}
+.slide_up{
+	background-color:rgba(0,0,0,0.8);
+	text-align:center;
+	transform:translateY(100%);
+	opacity:0;
+	transition:1s ease;
+	color:#FFF;
+		
+}
+ul li:hover >.slide_up{
+	transform:translateY(0);
+	opacity:1;
+}
+/*----------------LIST IMGS----------------*/
+.j_img_1{
+	background-image:url("https://www.simplar.com/wp-content/uploads/2017/12/planning.jpg");
+}
+.j_img_2{
+	background-image:url("https://cdn1.vectorstock.com/i/1000x1000/66/85/simple-screwdriver-hammer-cross-drawing-graphic-vector-19386685.jpg");
+}
+.j_img_3{
+	background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlXXp9ySLyY1-QDMGhOCRx5xDYCtyIYVDRKx14HPL1NDLaKj_h");
+}
+.j_img_4{
+	background-image:url("https://media.gettyimages.com/photos/robots-fight-during-the-32nd-roboone-tournament-on-february-25-2018-picture-id923950768?k=6&m=923950768&s=612x612&w=0&h=lzeXF_ctILTh9Yh9xzxZqqu_yo0ZY1RPKKDJuXc7H1w=");
+}
+.j_img_5{
+	background-image:url("https://t1.hespress.com/files/4_250891330.jpg");
+}
