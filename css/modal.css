@@ -143,8 +143,9 @@ img{
 	transform:scale(1.1);
 }
 .modal{
-	z-index:26;
+	z-index:1000;
 	width:100vw;
+	margin:0;
 	overflow-y:scroll;
 	position:fixed;
 	bottom:0%;
@@ -170,6 +171,17 @@ img{
 	cursor:pointer;
 	display:flex;
 	justify-content:flex-end;
+	margin:5px;
+}
+.closev2{
+	z-index:4;
+	padding-right:12px;
+	font-size:2em;
+	transition:0.3s ease;
+	cursor:pointer;
+	margin:5px;
+	position:absolute;
+	right:5%;
 }
 .close:hover{
 	transform:scale(1.01);
