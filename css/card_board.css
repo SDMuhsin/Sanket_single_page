@@ -201,8 +201,10 @@ li ul{
 	margin-bottom:auto;
 }
 .snl_parent{
+	font-size:1.4rem;
 	margin:auto;
-	width:40%;
-	height:60%;
-	background:blue;
+	background:#ece8d3;
+	padding:20px;
+	border-radius:5px;
+	box-shadow:2px 2px 6px black;
 }
